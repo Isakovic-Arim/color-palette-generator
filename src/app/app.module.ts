@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './components/header/header.component';
+import { OptionColorComponent } from './components/option-color/option-color.component';
+import { ButtonGenerateComponent } from './components/button-generate/button-generate.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    OptionColorComponent,
+    ButtonGenerateComponent
   ],
   imports: [
     BrowserModule,
