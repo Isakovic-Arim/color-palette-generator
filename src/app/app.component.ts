@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Palette } from './classes/palette';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'color-palette-generator';
+  palette: Palette = new Palette();
 }

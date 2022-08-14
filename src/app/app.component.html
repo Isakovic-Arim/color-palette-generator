@@ -1,10 +1,6 @@
 <app-header text="Color palette generator"></app-header>
 <div class="flex">
-  <app-option-color></app-option-color>
-  <app-option-color></app-option-color>
-  <app-option-color></app-option-color>
-  <app-option-color></app-option-color>
-  <app-option-color></app-option-color>
+  <app-option-color *ngFor="let color of palette.content, index as i" [code]="color" [index]="i"></app-option-color>
 </div>
 <div class="flex justify-center mt-10">
   <app-button-generate></app-button-generate>
