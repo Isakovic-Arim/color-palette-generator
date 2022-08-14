@@ -10,3 +10,5 @@ body {
     padding: 70px;
     background-color: hsl(210, 15%, 90%);
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

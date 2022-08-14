@@ -7,6 +7,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { OptionColorComponent } from './components/option-color/option-color.component';
 import { ButtonGenerateComponent } from './components/button-generate/button-generate.component';
 
+import { ClipboardModule } from '@angular/cdk/clipboard';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +18,8 @@ import { ButtonGenerateComponent } from './components/button-generate/button-gen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ClipboardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
