@@ -1,3 +1,4 @@
+<app-message class="mt-0"></app-message>
 <app-header text="Color palette generator"></app-header>
 <div class="flex">
   <app-option-color *ngFor="let color of palette.content, index as i" [code]="color" [index]="i"></app-option-color>
@@ -7,5 +8,5 @@
 </div>
 <p class="text-center text-xs font-medium mt-5">Or just press the "Spacebar" to generate new palettes.</p>
 <div class="flex justify-center mt-14">
-  <p class="bg-white w-fit text-center text-xs border-2 rounded-full px-3 py-2">Click to copy individual color | Press "C" to copy palette</p>
+  <p class="bg-white w-fit text-center text-xs border-2 rounded-full px-3 py-2">Click to copy individual color</p>
 </div>

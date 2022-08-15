@@ -8,13 +8,15 @@ import { OptionColorComponent } from './components/option-color/option-color.com
 import { ButtonGenerateComponent } from './components/button-generate/button-generate.component';
 
 import { ClipboardModule } from '@angular/cdk/clipboard';
+import { MessageComponent } from './components/message/message.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     OptionColorComponent,
-    ButtonGenerateComponent
+    ButtonGenerateComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule,
