@@ -1,4 +1,6 @@
-<app-message class="mt-0"></app-message>
+<div class="flex justify-center h-10">
+  <app-message></app-message>
+</div>
 <app-header text="Color palette generator"></app-header>
 <div class="flex">
   <app-option-color *ngFor="let color of palette.content, index as i" [code]="color" [index]="i"></app-option-color>

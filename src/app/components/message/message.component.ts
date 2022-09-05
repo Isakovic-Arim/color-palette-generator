@@ -13,7 +13,7 @@ import { MessageExchangeService } from 'src/app/services/message-exchange.servic
 })
 export class MessageComponent implements OnInit {
   @Input() code = "";
-  @Input() display = "block";
+  @Input() display = "none";
 
   constructor(private message: MessageExchangeService) { }
 
