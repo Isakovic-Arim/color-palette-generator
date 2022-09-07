@@ -16,7 +16,7 @@ export class ButtonGenerateComponent implements OnInit {
   }
   
   changeColors() {
-    var url = "http://colormind.io/api/";
+    var url = " https://cors-everywhere.herokuapp.com/http://colormind.io/api/";
     var data = {
       x: null,
       model : "default",
